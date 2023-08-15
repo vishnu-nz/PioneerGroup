@@ -1,0 +1,18 @@
+{
+  "Tags": [
+    {
+      "Key": "Performer"
+    },
+    {
+      "Key": "Equity"
+    },
+    {
+      "Key": "PioneerUni"
+    },
+    {
+      "Key": "Sage"
+    }
+  ],
+  "SeparateRuntimeDependencies": true,
+  "IncludeSources": true
+}

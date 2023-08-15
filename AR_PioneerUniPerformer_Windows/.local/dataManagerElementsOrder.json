@@ -1,0 +1,193 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "dtAllocationStatusData&StateMachine_1",
+        "strReference&StateMachine_1",
+        "dtBankReconStatusData&StateMachine_1",
+        "strFinalExecutionStatusFileName&StateMachine_1",
+        "ShouldStop&Sequence_25",
+        "strFinalExecutionStatusFileName&Sequence_31"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SageWorkflows/SageVoucherAllocations.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strReferenceRowName&Sequence_1",
+        "dtAllocationData&Sequence_1",
+        "intRowIndex&Sequence_1",
+        "strRow&Sequence_1",
+        "isInvoiceRowExist&Sequence_1",
+        "strExtractedRef&Sequence_1",
+        "strAllocateRowName&Sequence_1",
+        "isRefFound&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_FolderPath",
+        "in_Reference",
+        "in_TransactionItem",
+        "in_dtAllocationStatusData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SageWorkflows/SageVocherEntries.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "lstCustomer&Sequence_2",
+        "dtARData&Sequence_2",
+        "strValidAccountText&Sequence_2",
+        "isInvalidAccount&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Narrative",
+        "in_Amount",
+        "out_Reference",
+        "in_Module",
+        "in_DepositType",
+        "in_VoucherTypeMpesa",
+        "in_VoucherTypeDirect",
+        "in_TransactionItem",
+        "in_dtAllocationStatusData",
+        "in_Date"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SageWorkflows/SageLogin.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "isOKButtonExist&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Agent",
+        "in_Password",
+        "in_DBName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strDBUsername&Sequence_9",
+        "secDBPassword&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SageWorkflows/SageBankReconNavigation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "isBankReconWindowExist&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Account"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SageWorkflows/SageVoucherNavigation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "isFilterLabelLoaded&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_dtAllocationStatusData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_FolderPath",
+        "in_TransactionItem",
+        "in_Config",
+        "out_Reference",
+        "in_dtAllocationStatusData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_Config",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/TakeScreenshot.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Screenshot&Sequence_1",
+        "ScreenshotFileInfo&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Folder",
+        "io_FilePath",
+        "in_ToSupportTeam",
+        "in_CcSupportTeam",
+        "in_ProcessName",
+        "in_SystemException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
